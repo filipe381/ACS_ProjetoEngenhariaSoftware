@@ -1,0 +1,10 @@
+# Sobe a API com um comando:  docker compose up --build
+# Depois acesse: http://localhost:8000/__docs__/
+services:
+  api:
+    build: .
+    image: jurimetria-api
+    container_name: jurimetria-api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped

@@ -1,0 +1,13 @@
+# Nao envia artefatos/arquivos do host para o contexto de build.
+# O modelo e treinado dentro da imagem.
+.git
+.gitignore
+modelo.rds
+arvore_decisao.png
+testar_api.R
+README.md
+*.Rproj
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
